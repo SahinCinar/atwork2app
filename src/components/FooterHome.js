@@ -1,11 +1,13 @@
 import styles from "./FooterHome.module.scss"
+import facebook from "./assets/facebook.png"
+import instagram from "./assets/instagram.png"
 
-function FooterHome() {
+const FooterHome = () =>{
     return (
         <>
       <div className={styles.container_footerhome}>
-        <a className={styles.link_facebook}><img className={styles.link_facebook_img}></img></a>
-        <a className={styles.link_instagram}><img className={styles.link_instagram_img}></img></a>
+        <img alt="facebook" className={styles.fb_img} src={facebook}></img>
+        <img alt="instagram" className={styles.insta_img} src={instagram}></img>
       </div>
       </>
     )

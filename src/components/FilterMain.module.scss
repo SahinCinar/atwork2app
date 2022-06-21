@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #789574;
+}
+.container_cross{
+    background-color: #789574;
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 20px;
+    color: #fff;
+}
+.container_middel{
+    background-color: #FFFFE5;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0px 5px 10px 10px #545454;
+    min-height: 563px;
+
+    .buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    background-color: #FFFFE5;
+    border-radius: 35px !important;
+    
+        .button1{
+            padding: 1rem;
+            border-radius: 20px;
+            border: none;
+            background-color: #C7C7C7;
+            box-shadow: 0px 5px 10px 2px #353535;
+            cursor: pointer;
+
+            .p1{
+                background-color: #C7C7C7;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+        .button2{
+            padding: 1rem;
+            border-radius: 20px;
+            border: none;
+            background-color: #C7C7C7;
+            box-shadow: 0px 5px 10px 2px #353535;
+            cursor: pointer;
+
+            .p2{
+                background-color: #C7C7C7;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+        .button3{
+            padding: 1rem;
+            border-radius: 20px;
+            border: none;
+            background-color: #C7C7C7;
+            box-shadow: 0px 5px 10px 2px #353535;
+            cursor: pointer;
+            .p3{
+                background-color: #C7C7C7;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+    }
+    .container_form{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 25px;
+        margin-left: 3rem;
+        background-color: #FFFFE5;
+        .label_vege{
+            background-color: #FFFFE5;
+        }
+        .label_vege input{
+            margin-right: 25px;
+        }
+        .label_vega{
+            background-color: #FFFFE5;
+        }
+        .label_vega input{
+            margin-right: 25px;
+        }
+        .label_pasta{
+            background-color: #FFFFE5;
+        }
+        .label_pasta input{
+            margin-right: 25px;
+        }
+        .label_pizza{
+            background-color: #FFFFE5;
+        }
+        .label_pizza input{
+            margin-right: 25px;
+        }
+        .label_afhalen{
+            background-color: #FFFFE5;
+        }
+        .label_afhalen input{
+            margin-right: 25px;
+        }
+        .label_bezorgen{
+            background-color: #FFFFE5;
+        }
+        .label_bezorgen input{
+            margin-right: 25px;
+        }
+    }
+    .container_afstand{
+        background-color: #FFFFE5 !important;
+        .subtitle{
+            background-color: #FFFFE5 !important;
+            margin-left: 2.8rem;
+            margin-top: 1rem;
+        }
+    }
+    
+}

@@ -2,4 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #779474;
+}
+.container_headerhome{
+    background-color: #779474;
+    display: flex;
+    align-items: flex-start;
+    .button_profile{
+        border: none;
+        background-color: transparent;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        cursor: pointer;
+
+        .profile{
+            width: 3rem;
+        }
+        
+    }
+    .logo{
+            width: 13.5rem;
+            margin-top: 6rem;
+            padding-bottom: 6rem;
+        }
+    .button_hamburger{
+        border: none;
+        background-color: transparent;
+        margin-top: 1rem;
+        .logohamburger{
+            width: 3rem;
+            margin-right: 3rem;
+            cursor: pointer;
+        }
+    }
 }

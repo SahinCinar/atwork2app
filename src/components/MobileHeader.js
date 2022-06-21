@@ -1,6 +1,6 @@
 import styles from "./MobileHeader.module.scss"
 
-const mobileheader = () => {
+const MobileHeader = () => {
     return (
       <>
     <div className={styles.container_header}>
@@ -12,4 +12,4 @@ const mobileheader = () => {
     );
   };
   
-  export default mobileheader;
+  export default MobileHeader;

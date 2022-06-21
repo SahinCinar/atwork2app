@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_plaatsen{
+    display: flex;
+    background-color: #789574;
+    align-items: center;
+    flex-direction: column;
+    .title{
+        padding: 2rem;
+        font-size: 30px;
+        color: #fff;
+    }
+    .a_z{
+        font-size: 10px;
+        font-weight: bold;
+        margin-right: 14rem;
+    }
+    .plaatsen{
+        .container_anne{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 250px;
+        background-color: #FFFFE6;
+        border-radius: 15px;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        box-shadow: 1px 5px 5px #323232;
+        cursor: pointer;
+        .anne_img{
+            width: 3rem;
+        }
+        .text{
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: 1.5rem;
+            }
+        }
+        .container_appelier{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 250px;
+            background-color: #FFFFE6;
+            border-radius: 15px;
+            padding: 0.5rem;
+            margin-top: 1rem;
+            box-shadow: 1px 5px 5px #323232;
+            cursor: pointer;
+            .appelier_img{
+                width: 3rem;
+            }
+            .text{
+                font-size: 20px;
+                font-weight: bold;
+                margin-left: 1.5rem;
+                }
+            }
+            .container_ayuno{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 250px;
+                background-color: #FFFFE6;
+                border-radius: 15px;
+                padding: 0.5rem;
+                margin-top: 1rem;
+                box-shadow: 1px 5px 5px #323232;
+                cursor: pointer;
+                .ayuno_img{
+                    width: 3rem;
+                }
+                .text{
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-left: 1.5rem;
+                    }
+                }
+                .container_beomarkt{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    width: 250px;
+                    background-color: #FFFFE6;
+                    border-radius: 15px;
+                    padding: 0.5rem;
+                    margin-top: 1rem;
+                    box-shadow: 1px 5px 5px #323232;
+                    cursor: pointer;
+                    .beomarkt_img{
+                        width: 3rem;
+                    }
+                    .text{
+                        font-size: 20px;
+                        font-weight: bold;
+                        margin-left: 1.5rem;
+                        }
+                    }
+                    .container_bioplanet{
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        width: 250px;
+                        background-color: #FFFFE6;
+                        border-radius: 15px;
+                        padding: 0.5rem;
+                        margin-top: 1rem;
+                        box-shadow: 1px 5px 5px #323232;
+                        cursor: pointer;
+                        .bioplanet_img{
+                            width: 3rem;
+                        }
+                        .text{
+                            font-size: 20px;
+                            font-weight: bold;
+                            margin-left: 1.5rem;
+                            }
+                        }
+                        .container_bioshop{
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                            width: 250px;
+                            background-color: #FFFFE6;
+                            border-radius: 15px;
+                            padding: 0.5rem;
+                            margin-top: 1rem;
+                            box-shadow: 1px 5px 5px #323232;
+                            cursor: pointer;
+                            .bioshop_img{
+                                width: 3rem;
+                            }
+                            .text{
+                                font-size: 20px;
+                                font-weight: bold;
+                                margin-left: 1.5rem;
+                                }
+                            }
+                            .container_centrum{
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-start;
+                                width: 250px;
+                                background-color: #FFFFE6;
+                                border-radius: 15px;
+                                padding: 0.5rem;
+                                margin-top: 1rem;
+                                box-shadow: 1px 5px 5px #323232;
+                                cursor: pointer;
+                                .centrum_img{
+                                    width: 3rem;
+                                }
+                                .text{
+                                    font-size: 20px;
+                                    font-weight: bold;
+                                    margin-left: 1.5rem;
+                                    }
+                                }
+                                .container_charles{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: flex-start;
+                                    width: 250px;
+                                    background-color: #FFFFE6;
+                                    border-radius: 15px;
+                                    padding: 0.5rem;
+                                    margin-top: 1rem;
+                                    box-shadow: 1px 5px 5px #323232;
+                                    cursor: pointer;
+                                    .charles_img{
+                                        width: 3rem;
+                                    }
+                                    .text{
+                                        font-size: 20px;
+                                        font-weight: bold;
+                                        margin-left: 1.5rem;
+                                        }
+                                    }
+                                    .container_friet{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: flex-start;
+                                        width: 250px;
+                                        background-color: #FFFFE6;
+                                        border-radius: 15px;
+                                        padding: 0.5rem;
+                                        margin-top: 1rem;
+                                        box-shadow: 1px 5px 5px #323232;
+                                        cursor: pointer;
+                                        .friet_img{
+                                            width: 3rem;
+                                        }
+                                        .text{
+                                            font-size: 20px;
+                                            font-weight: bold;
+                                            margin-left: 1.5rem;
+                                            }
+                                        }
+                                        .container_slegte{
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: flex-start;
+                                            width: 250px;
+                                            background-color: #FFFFE6;
+                                            border-radius: 15px;
+                                            padding: 0.5rem;
+                                            margin-top: 1rem;
+                                            box-shadow: 1px 5px 5px #323232;
+                                            cursor: pointer;
+                                            .slegte_img{
+                                                width: 3rem;
+                                            }
+                                            .text{
+                                                font-size: 20px;
+                                                font-weight: bold;
+                                                margin-left: 1.5rem;
+                                                }
+                                            }
+                                            .container_walrus{
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: flex-start;
+                                                width: 250px;
+                                                background-color: #FFFFE6;
+                                                border-radius: 15px;
+                                                padding: 0.5rem;
+                                                margin-top: 1rem;
+                                                box-shadow: 1px 5px 5px #323232;
+                                                cursor: pointer;
+                                                .walrus_img{
+                                                    width: 3rem;
+                                                }
+                                                .text{
+                                                    font-size: 20px;
+                                                    font-weight: bold;
+                                                    margin-left: 1.5rem;
+                                                    }
+                                                }
+        
+    }
+}

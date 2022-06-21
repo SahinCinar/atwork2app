@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container_footerhome{
+    background-color: #FFFFED;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+
+    .fb_img{
+        width: 2rem;
+        height: 2rem;
+        margin-right: 0.5rem;
+        cursor: pointer;
+        background-color: #FFFFED;
+
+    }
+    .insta_img{
+        width: 2rem;
+        height: 2rem;
+        margin-left: 0.5rem;
+        cursor: pointer;
+        background-color: #FFFFED;
+
+    }
+}
